@@ -38,11 +38,11 @@
 
 stdenv.mkDerivation rec {
   pname   = "digikam";
-  version = "8.3.0";
+  version = "8.4.0";
 
   src = fetchurl {
-    url = "mirror://kde/stable/${pname}/${version}/digiKam-${version}-1.tar.xz";
-    hash = "sha256-BbFF/38vIAX6IbxXnBUqsjyBkbZ4/ylEyPBAbWud5tg=";
+    url = "mirror://kde/stable/${pname}/${version}/digiKam-${version}.tar.xz";
+    hash = "sha256-U8ispaL2YBc+Kahg2LE4RL0Ox0jvP2GMQvdolHZJRIE=";
   };
 
   strictDeps = true;
